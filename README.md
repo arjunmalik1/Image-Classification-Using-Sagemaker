@@ -1,4 +1,4 @@
-# Dog Breed Classifier Project BY SANCHARIKA DEBNATH
+# Dog Breed Classifier Project 
 # Image Classification using AWS SageMaker
 
 This project takes a pretrained CNN model (Resnet18) and finetunes it for use in classifying dog breeds into 133 classifications based on a Dog Breeds dataset.
