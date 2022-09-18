@@ -1,4 +1,4 @@
-# Dog Breed Classifier Project 
+# Dog Breed Classifier Project BY SANCHARIKA DEBNATH
 # Image Classification using AWS SageMaker
 
 This project takes a pretrained CNN model (Resnet18) and finetunes it for use in classifying dog breeds into 133 classifications based on a Dog Breeds dataset.
@@ -30,5 +30,22 @@ These hyperparameters gave broad coverage of the tunables for the system. Values
 
 
 
+### Results
 
+![Hyperparameter Training Job](Hyperparameter_training_job.png "Hyperparameter training job")
+
+![Hyperparameters best results](Hyperparameters_best_results.png "Hyperparameters best results")
+
+![Training job resource use](Training_job_resource_use.png "Training job resource use")
+
+![Training job output](Training_job_output.png "Training job output")
+
+## Model Deployment
+The deployed model runs a tuned version of ResNet18 and accepts data as preprocessed in the notebook.
+
+![Deployed endpoint](deployed_endpoint.png "Deployed endpoint")
+
+![Penny for testing](testImages/Penny.png "Penny for testing")
+
+![Using the endpoint](Using_the_endpoint.png "Using the endpoint")
 
